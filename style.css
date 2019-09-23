@@ -1,0 +1,87 @@
+.mine {
+    width: 900px; 
+    min-height: 480px;
+    margin: 100px auto; 
+    background-color: #e1e1e1; 
+    padding: 20px;
+    text-align: center;
+} 
+.mine2 {
+    display: flex;
+    padding-left: 10px;
+    min-height: 440px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.box {
+    margin: 10px; 
+    height: 200px;
+    width: 200px;
+    background-color: #724734;
+    font-size: 100px; 
+    color: #e1e1e1;
+    line-height: 200px;
+    user-select: none;
+    cursor: grab;
+}
+.sort {
+    width: 100%; 
+    text-align: right; 
+}
+.link {
+    font-family: Sans-Serif;
+    font-size: 14px;
+    color: steelblue; 
+    border-bottom: 1px;
+    border-bottom-style: dashed; 
+    border-bottom-color: steelblue;
+    cursor: alias;
+}
+.link:hover {
+    font-family: Sans-Serif;
+    font-size: 14px;
+    color: steelblue;
+    border: none;
+}
+.butt  {
+    justify-content: space-between;
+    display: flex;
+    margin: 0 10px 0;
+}
+.lin {
+    width: 14px;
+    display: inline-block;
+    height: 13px;
+    background-image: url(https://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png);
+    background-position: 47% 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.col {
+    width: 14px;
+    display: inline-block;
+    height: 13px;
+    background-image: url(https://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png);
+    background-position: 58% 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.highlight {  
+    box-sizing: border-box;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: #937a66;
+    border: 3px  black dashed;
+ }
+
+ .ui-selecting { background-color: brown; }
+
+ .bbox div {
+    height: 420px;
+    width: 420px;
+    font-size: 200px; 
+    line-height: 420px;
+ }
